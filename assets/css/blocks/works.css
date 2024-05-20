@@ -1,0 +1,44 @@
+.works__slider-container {
+  border-radius: 25px;
+  background: #FFFFFF;
+  padding: 10px;
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+
+.works__slider {
+  border-radius: 25px;
+  overflow: hidden;
+}
+
+.works__slide-wrapper {
+  aspect-ratio: 1040 / 500;
+  box-sizing: border-box;
+}
+
+.works__slide-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.works__thumbs-wrapper {
+  box-sizing: border-box;
+}
+
+.works__thumbs-slide {
+  aspect-ratio: 253 / 122;
+  border-radius: 25px;
+  overflow: hidden;
+  background: #FFFFFF;
+  cursor: pointer;
+}
+
+.works__thumbs-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  padding: 10px;
+  border-radius: 25px;
+  overflow: hidden;
+}

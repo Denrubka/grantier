@@ -1,0 +1,63 @@
+.form {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.form__label {
+  position: relative;
+  font-family: var(--second-family);
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 0.9;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #939393;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f9f9f8;
+  border-radius: 10px;
+  padding: 25px 27px;
+}
+
+.form__label_type_tel {
+  flex-basis: 282px;
+}
+
+.form__label_type_file {
+  padding: 27px;
+  flex-shrink: 0;
+  cursor: pointer;
+}
+
+.form__label-icon {
+  margin-right: 10px;
+}
+
+.form__input {
+  font-weight: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  letter-spacing: inherit;
+  text-transform: inherit;
+  border: none;
+  padding: 0;
+  background-color: transparent;
+  outline: none;
+  width: 100%;
+}
+
+.form__input_type_file {
+  position: absolute;
+  visibility: hidden;
+  top: 0;
+  left: 0;
+}
+
+.form__btn {
+  max-width: 247px;
+  width: 100%;
+  padding: 27px 36px;
+}

@@ -1,0 +1,73 @@
+.benefits {
+  background-image: url('../../img/benefits/bg.png');
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  background-size: cover;
+  padding-bottom: 790px;
+}
+
+.benefits__title {
+  text-align: left;
+}
+
+.benefits__slider-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  counter-reset: benefits;
+}
+
+.benefits__slide {
+  counter-increment: benefits 1;
+  position: relative;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  height: auto;
+  max-width: 248px;
+  box-shadow: 0 10px 23px 0 rgba(218, 217, 215, 0.1), 0 42px 42px 0 rgba(218, 217, 215, 0.09), 0 94px 56px 0 rgba(218, 217, 215, 0.05), 0 167px 67px 0 rgba(218, 217, 215, 0.01), 0 261px 73px 0 rgba(218, 217, 215, 0);
+  background: #fff;
+  border-radius: 25px;
+}
+
+.benefits__slide::before {
+  content: '0' counter(benefits);
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  width: 35px;
+  height: 35px;
+  background: var(--red-color);
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: var(--second-family);
+  font-weight: 800;
+  font-size: 11px;
+  line-height: 0.9;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #fff6f4;
+}
+
+.benefits__slide-img {
+  border-radius: 20px;
+  background: #d9d9d9;
+  margin-bottom: 14px;
+}
+
+.benefits__slide-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.03em;
+  color: #767676;
+  padding: 0 10px 10px 10px;
+}
+
+.benefits__slide-text strong {
+  font-weight: 600;
+  color: #505050;
+}

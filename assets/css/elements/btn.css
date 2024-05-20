@@ -1,0 +1,31 @@
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  background: var(--red-color);
+  color: #fff6f4;
+  gap: 10px;
+  font-family: var(--second-family);
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 800;
+  line-height: 0.9;
+  padding: 23px 36px;
+  width: fit-content;
+  letter-spacing: 0.05em;
+}
+
+.btn-catalog {
+  padding: 17px 32px;
+}
+
+.btn-call {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  background: #e6ebea;
+  color: #a9b6b3;
+  padding: 15px;
+}

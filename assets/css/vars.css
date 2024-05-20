@@ -1,0 +1,13 @@
+:root {
+  --font-family: "Golos", sans-serif;
+  --second-family: "Montserrat", sans-serif;
+  --third-family: "Forum", sans-serif;
+
+  --dark-color: #505050;
+  --gray-color: #767676;
+  --light-color: #f4f3f2;
+  --red-color:  #f05029;
+  --header-color: #3e4247;
+
+  --gradient-color: linear-gradient(45deg, rgb(62, 66, 71) 70%, rgba(62, 66, 71, 0.6) 100%);
+}

@@ -1,0 +1,23 @@
+@import url("./normalize.css");
+@import url("./fonts.css");
+@import url("./vars.css");
+@import url("./style.css");
+
+@import url("./elements/btn.css");
+@import url("./elements/socials.css");
+@import url("./elements/logo.css");
+@import url("./elements/search.css");
+@import url("./elements/basket.css");
+@import url("./elements/tabs.css");
+@import url("./elements/form.css");
+
+@import url("./blocks/header.css");
+@import url("./blocks/main-hero.css");
+@import url("./blocks/benefits.css");
+@import url("./blocks/catalog.css");
+@import url("./blocks/cta.css");
+@import url("./blocks/services.css");
+@import url("./blocks/steps.css");
+@import url("./blocks/works.css");
+@import url("./blocks/map.css");
+@import url("./blocks/footer.css");
